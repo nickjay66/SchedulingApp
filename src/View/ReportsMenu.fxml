@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="423.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ReportsMenuController">
+   <children>
+      <TableView fx:id="appointmentTable" layoutX="3.0" layoutY="68.0" prefHeight="200.0" prefWidth="743.0">
+        <columns>
+          <TableColumn fx:id="c1Col" prefWidth="127.0" text="C1" />
+          <TableColumn fx:id="c2Col" prefWidth="107.0" text="C2" />
+            <TableColumn fx:id="c3Col" prefWidth="101.0" text="C3" />
+            <TableColumn fx:id="c4Col" prefWidth="96.0" text="C4" />
+            <TableColumn fx:id="c5Col" prefWidth="101.0" text="C5" />
+            <TableColumn fx:id="c6Col" minWidth="0.0" prefWidth="105.0" text="C6" />
+            <TableColumn fx:id="c7Col" prefWidth="105.0" text="C7" />
+        </columns>
+      </TableView>
+      <VBox layoutX="38.0" layoutY="276.0" prefHeight="124.0" prefWidth="130.0">
+         <children>
+            <Label text="Generate Report By:" />
+            <Button mnemonicParsing="false" onAction="#onActionTypeBttn" prefWidth="78.0" text="Type">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#onActionScheduleBttn" prefHeight="27.0" prefWidth="78.0" text="Schedule">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#onActionCustomerBttn" text="Customer">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+      <VBox layoutX="141.0" layoutY="337.0" prefHeight="86.0" prefWidth="118.0">
+         <children>
+            <TextField fx:id="userNameTxt" prefHeight="0.0" prefWidth="118.0" promptText="User Name" />
+            <TextField fx:id="custTxt" prefHeight="0.0" prefWidth="118.0" promptText="Customer Name">
+               <VBox.margin>
+                  <Insets top="9.0" />
+               </VBox.margin>
+            </TextField>
+         </children>
+      </VBox>
+      <HBox layoutX="474.0" layoutY="362.0" prefHeight="33.0" prefWidth="118.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#onActionCancelBttn" prefWidth="78.0" text="Cancel">
+               <HBox.margin>
+                  <Insets left="20.0" top="5.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

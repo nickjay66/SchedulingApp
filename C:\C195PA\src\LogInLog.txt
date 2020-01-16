@@ -1,0 +1,12 @@
+Oct 20, 2019 2:00:41 PM Controller.LogInController onActionSubmitClick
+INFO: User: nick has logged in.
+Oct 20, 2019 2:01:26 PM Controller.LogInController onActionSubmitClick
+INFO: User: nick has logged in.
+Oct 20, 2019 2:02:34 PM Controller.LogInController onActionSubmitClick
+INFO: User: nick has logged in.
+Oct 20, 2019 2:03:36 PM Controller.LogInController onActionSubmitClick
+INFO: User: nick has logged in.
+Oct 20, 2019 2:05:55 PM Controller.LogInController onActionSubmitClick
+INFO: User: Grace has logged in.
+Oct 20, 2019 2:06:33 PM Controller.LogInController onActionSubmitClick
+INFO: User: nick has logged in.
